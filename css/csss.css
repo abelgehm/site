@@ -1,0 +1,216 @@
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,900,800,700,500,600,300,200,100);
+
+@font-face {
+    font-family: "reklame";
+    src: url("../fonts/reklame.eot");
+    src: url("../fonts/reklame.eot?#iefix") format("embedded-opentype"),url("../fonts/reklame.woff2") format("woff2"),url("../fonts/reklame.woff") format("woff"),url("../fonts/reklame.ttf") format("truetype"),url("../fonts/reklame.svg#Reklame Script W00 Regular") format("svg");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #FFFFFF;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1em;
+    font-family: 'Lato', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
+section {
+    float: left;
+    width: 100%;
+}
+
+@media only screen and (min-width:240px) and (max-width: 768px) {
+    section {
+        padding: 0 15px;
+    }
+}
+
+.plxi {
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+    .plxi h1 {
+        text-align: center;
+    }
+
+    .plxi ::before {
+        height: 65px;
+        content: "";
+        display: block;
+    }
+
+    .plxi h3 {
+        font-weight: 700;
+        font-size: 48px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFF;
+        text-shadow: 3px 3px 1px rgba(0,0,0,0.78);
+    }
+
+.sombra {
+    text-shadow: 3px 3px 1px rgba(0,0,0,0.78);
+}
+
+.sombrabox {
+    width: 100%;
+    box-shadow: 3px 3px 0 0 rgba(0,0,0,0.78);
+}
+
+.bgondecomprar {
+    background-image: url("../img/ondecomprar.jpg");
+}
+
+.bgcadastros {
+    background-image: url("../img/cadastros.jpg");
+}
+
+.bgescritorio {
+    background-image: url("../img/escritorio.jpg");
+}
+
+.bgquemsomos {
+    background-image: url("../img/quemsomos.jpg");
+}
+
+.bgconsultoria {
+    background-image: url("../img/consultoria.jpg");
+}
+
+.bgprojetossociais {
+    background-image: url("../img/projetossociais.jpg");
+}
+
+.plxc {
+    background: none repeat scroll 0 0 #2581e8;
+    padding: 42px 0;
+    color: #FFF;
+}
+
+    .plxc h3 {
+        color: #FFF;
+        text-align: center;
+    }
+
+.plxv {
+    height: 300px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+    .plxv video {
+        min-width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: -9999;
+    }
+
+    .plxv h3 {
+        color: #fff;
+        font-size: 48px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 3px 3px 1px rgba(0,0,0,0.78);
+    }
+
+.container h3 {
+    text-shadow: 3px 3px 1px rgba(0,0,0,0.78);
+}
+
+/* General Section*/
+.container {
+    margin: 0 auto;
+    padding: 0 12px;
+    height: auto !important;
+}
+
+    .container hr {
+        border: 4px solid #fff;
+        box-shadow: 3px 3px 0 0 rgba(0,0,0,0.78);
+    }
+
+    .container p, .container li {
+        font-size: x-large;
+        text-align: justify;
+    }
+
+.letragrande {
+    text-align: center;
+    font-size: x-large;
+}
+
+.headlines h2 {
+    color: #fff;
+    font-family: "PT Sans",sans-serif;
+    font-size: 32px;
+    margin: 0;
+    text-shadow: 3px 3px 1px rgba(0,0,0,0.78);
+    text-align: center;
+}
+
+.headlines p {
+    font-size: 32px;
+    font-family: "PT Sans",sans-serif;
+    font-weight: 300;
+    margin: 0;
+    color: #f6f3f3;
+    text-align: center;
+}
+
+.laranja {
+    color: #f7941e;
+}
+
+.laranjafundo {
+    background-color: #f7941e;
+    border-color: #000;
+    box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.78);
+}
+
+.botaoreklame {
+    font-family: reklame;
+    font-size: xx-large;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1024px;
+    }
+}
