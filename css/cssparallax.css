@@ -61,11 +61,11 @@ html {
 }
 
 .bgcadastros {
-  background-image: url("../img/cadastros.png");
+  background-image: url("../img/cadastros.jpg");
 }
 
 .bgescritorio {
-  background-image: url("../img/escritorio.png");
+  background-image: url("../img/escritorio.jpg");
 }
 
 .bgquemsomos {
@@ -73,11 +73,11 @@ html {
 }
 
 .bgconsultoria {
-  background-image: url("../img/consultoria.png");
+  background-image: url("../img/consultoria.jpg");
 }
 
 .bgprojetossociais {
-  background-image: url("../img/projetossociais.png");
+  background-image: url("../img/projetossociais.jpg");
 }
 
 /* Content Parallax Section*/
