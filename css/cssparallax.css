@@ -6,7 +6,6 @@
   font-style: normal;
 }
 
-
 /* Image Parallax Section*/
 
 .ParallaxImage {
@@ -22,22 +21,20 @@
 }
 .ParallaxImage h3 {
   font-weight: 700;
-  font-size: 76px;
+  font-size: 48px;
   text-align: center;
   text-transform: uppercase;
   color:#FFF;
+  text-shadow: 3px 3px 1px rgba(0,0,0,0.78);
 }
 
-.bg1 {
-  background-image: url("logo__.png");
-}
-.bg2 {
-  background-image: url("logo_.png");
-}
-.bg3 {
-  background-image: url("../images/paxallax3.jpg");
+.bgondecomprar {
+  background-image: url("../img/ondecomprar.jpg");
 }
 
+.bgcadastros {
+  background-image: url("../img/cadastros.png");
+}
 
 /* Content Parallax Section*/
 .ParallaxContent {
@@ -55,52 +52,64 @@
 .ParallaxVideo{ 
 	height: 300px;
 	padding-bottom: 50px;
-    padding-top: 50px; 
+   padding-top: 50px; 
 }
 .ParallaxVideo video{ 
-    min-width: 100%;
-    position: fixed;
+  min-width: 100%;
+  position: fixed;
 	top:0;
 	z-index: -9999;
 }
 .ParallaxVideo h3 {
-    color: #fff;
-    font-size: 76px;
-    font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 1px rgba(0,0,0,0.78);
 }
-
 
 /* General Section*/
 .container {
   margin: 0 auto;
   padding:0 12px;
+  height: auto !important;
 }
+
+.letragrande {
+  text-align: center;
+  font-size: x-large;
+}
+
 .headlines h2 {
-    color: #fff;
-    font-family: "PT Sans",sans-serif;
-    font-size: 32px;
-    margin: 0;
+  color: #fff;
+  font-family: "PT Sans",sans-serif;
+  font-size: 32px;
+  margin: 0;
+  text-shadow: 3px 3px 1px rgba(0,0,0,0.78);
 	text-align: center;
 }
+
 .headlines p {
-    font-size: 22px;
-    font-weight: 300;
-    margin: 0;
+  font-size: 22px;
+  font-weight: 300;
+  margin: 0;
 	color:#f6f3f3;
 	text-align: center;
 }
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
   }
 }
+
 @media (min-width: 992px) {
   .container {
     width: 970px;
   }
 }
+
 @media (min-width: 1200px) {
   .container {
     width: 1024px;
