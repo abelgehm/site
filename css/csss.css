@@ -197,6 +197,11 @@ section {
     font-size: xx-large;
 }
 
+.vcentro {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 @media (min-width: 768px) {
     .container {
         width: 750px;
