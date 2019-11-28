@@ -198,6 +198,10 @@ section {
     color: #2581e8;
 }
 
+.centro {
+    text-align: center;
+}
+
 .botaoreklame {
     /*font-family: reklame;*/
     font-family: Arial, Helvetica, sans-serif;
