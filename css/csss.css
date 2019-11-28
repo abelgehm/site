@@ -188,15 +188,20 @@ section {
 
 .laranjafundo {
     /*background-color: #f7941e;*/
-    background-color: #FF0000;
+    background-color: #120a8f;
     border-color: #000;
     color: #fff;
     box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.78);
 }
 
+.laranjafundo:hover{
+    color: #2581e8;
+}
+
 .botaoreklame {
     /*font-family: reklame;*/
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
     font-size: xx-large;
 }
 
