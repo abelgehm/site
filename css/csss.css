@@ -198,6 +198,10 @@ section {
     color: #2581e8;
 }
 
+.laranjafundo:focus{
+    box-shadow: 0 0 0 0.2rem #f7951ec4;
+}
+
 .centro {
     text-align: center;
 }
