@@ -236,10 +236,6 @@ section {
     }
 }
 
-
-
-
-
 #cover-spin {
     position:fixed;
     width:100%;
@@ -272,4 +268,8 @@ section {
     border-radius:50%;
     -webkit-animation: spin .8s linear infinite;
     animation: spin .8s linear infinite;
+}
+
+.img100 {
+    width: 1.88rem;
 }
