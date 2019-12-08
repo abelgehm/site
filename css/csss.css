@@ -193,10 +193,25 @@ section {
 }
 
 .laranjafundo:hover {
-    color: #2581e8;
+    color: #fff;
 }
 
 .laranjafundo:focus {
+    box-shadow: 0 0 0 0.2rem #f7951ec4;
+}
+
+.vermelhofundo {
+    background-color: #d00000;
+    border-color: #000;
+    color: #fff;
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.78);
+}
+
+.vermelhofundo:hover {
+    color: #fff;
+}
+
+.vermelhofundo:focus {
     box-shadow: 0 0 0 0.2rem #f7951ec4;
 }
 
@@ -205,10 +220,10 @@ section {
 }
 
 .botaoreklame {
-    width: 80%;
+    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    font-size: x-large;
+    font-size: larger;
 }
 
 .vcentro {
