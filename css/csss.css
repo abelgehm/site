@@ -67,7 +67,8 @@ section {
     text-align: center;
     text-transform: uppercase;
     color: #FFF;
-    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.78);
+    /*text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.78);*/
+    
 }
 
 .sombra {
@@ -137,7 +138,13 @@ section {
 }
 
 .container h3 {
+    text-shadow: 3px 3px 5px #000,
+                 3px -3px 5px #000,
+                 -3px 3px 5px #000,
+                 -3px -3px 5px #000;
+    /*
     text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.78);
+    */
 }
 
 /* General Section*/
