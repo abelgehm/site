@@ -3,6 +3,12 @@ function CarregarTabela(tabela, titulo="Cashback plus") {
   $('#mdlb').load(tabela, function() {$('#mdl').modal('show');});
 }
 
+function MostrarMensagem(mensagem, titulo="Cashback plus") {
+  $('#mdlt').html(titulo);
+  $('#mdlb').html(mensagem);
+  $('#mdl').modal('show');
+}
+
 function LimpaModal(){
   $('#mdlt').html("Cashback plus");
   $('#mdlb').html("");
