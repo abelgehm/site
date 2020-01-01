@@ -36,3 +36,9 @@ function MostraOndeComprar() {
   CarregarTabela('https://escritorio.rcirenda.com.br/ondecomprar', 'Confira os estabelecimentos conveniados');
   return false;
 }
+
+$('.branco').on('click', function (){
+  if($(window).width() < 1200 ){
+    $('.navbar-toggler').click();
+  }
+});
