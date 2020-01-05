@@ -305,3 +305,11 @@ section {
 .navbar-right {
     max-height: 80px;
 }
+
+.conciliar {
+    background: url('img/queroconciliar.jpeg');
+}
+
+.linhabranca {
+    border-color: #FFF;
+}
