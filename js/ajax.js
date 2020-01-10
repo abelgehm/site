@@ -32,12 +32,13 @@ $('#mdl').on('show.bs.modal', function () {
   Backdrop(false);
 });
 
+/*
 $('#btnOndeComprar').click(
   function MostraOndeComprar() {
     Backdrop(true);
     CarregarTabela('https://escritorio.rcirenda.com.br/EstabelecimentoCredenciado', 'Confira os estabelecimentos conveniados');
     return false;
-  });
+  });*/
 
 $('.branco').on('click', function () {
   if ($(window).width() < 1200) {

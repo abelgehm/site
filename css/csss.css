@@ -76,6 +76,10 @@ section {
     box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.78);
 }
 
+.sombra2 {
+    text-shadow: 3px 3px 5px #000, 3px -3px 5px #000, -3px 3px 5px #000, -3px -3px 5px #000;
+}
+
 .bgondecomprar {
     background-image: url("../img/ondecomprar.jpg");
 }
@@ -137,14 +141,15 @@ section {
     text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.78);
 }
 
-.container h3 {
-    text-shadow: 3px 3px 5px #000, 3px -3px 5px #000, -3px 3px 5px #000, -3px -3px 5px #000;
-}
-
 .container {
     margin: 0 auto;
     padding: 0 12px;
     height: auto !important;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.78);
+}
+
+.container h3 {
+    text-shadow: 3px 3px 5px #000, 3px -3px 5px #000, -3px 3px 5px #000, -3px -3px 5px #000;
 }
 
 .container hr {
@@ -160,6 +165,10 @@ section {
 .letragrande {
     text-align: center;
     font-size: x-large;
+}
+
+.letragrande p {
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.78);
 }
 
 .headlines h2 {
@@ -271,12 +280,14 @@ section {
     content:'';
     display:block;
     position:absolute;
-    left:48%;top:40%;
-    width:40px;height:40px;
+    left:48%;
+    top:40%;
+    width:100px;
+    height:100px;
     border-style:solid;
     border-color:black;
     border-top-color:transparent;
-    border-width: 4px;
+    border-width: 8px;
     border-radius:50%;
     -webkit-animation: spin .8s linear infinite;
     animation: spin .8s linear infinite;
@@ -312,4 +323,44 @@ section {
 
 .linhabranca {
     border-color: #FFF;
+}
+
+.btn {
+    text-shadow: 3px 3px 5px #000, 3px -3px 5px #000, -3px 3px 5px #000, -3px -3px 5px #000;
+}
+
+.sombralogo {
+    filter:drop-shadow(4px 4px #053f80);
+}
+
+.sombralogo2 {
+    filter: drop-shadow(0 0 4px #FFF);
+}
+
+.fundobranco {
+    background: #FFF;
+}
+
+.dropdown-toggle {
+    cursor: pointer;
+}
+
+.gradiente {
+    background: linear-gradient(#FFF 0%, #237adc 50%, #FFF 100%);
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.78);
+    font-size: 22px;
+    color:#FFF
+}
+
+.gradiente:hover {
+    background: linear-gradient(#FFF 0%,#237adc 10%, #FFF 50%, #237adc 90%,  #FFF 100%);
+    text-shadow: 3px 3px 1px rgba(255, 255, 255, 1);
+    color: rgba(5,63,128,1);
+}
+
+.nav-link {
+    background: linear-gradient(#237adc 0%, rgba(5,63,128,0.5) 10%, #237adc 50%, rgba(5,63,128,0.5) 90%, #237adc 100%);/**/
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.78);
+    font-size: 22px;
+    color:#FFF
 }
