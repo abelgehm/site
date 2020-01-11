@@ -301,6 +301,21 @@ section {
     background: #053f80;
 }
 
+.modal-dialog,
+.modal-content {
+    height: calc(100% - 60px);
+}
+
+.modal-body {
+    max-height: calc(100% - 120px);
+    overflow-y: scroll;
+}
+
+iframe {
+  border-color: #053f80;
+  border-style: double;
+}
+
 .main {
     height: auto !important;
 }
@@ -363,4 +378,9 @@ section {
     text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.78);
     font-size: 22px;
     color:#FFF
+}
+
+.link {
+    color:#FFF;
+    font-size: smaller;
 }

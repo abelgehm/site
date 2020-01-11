@@ -3,18 +3,18 @@ function CarregarTabela(tabela, titulo = "Cashback plus") {
   $('#mdlb').load(tabela, function () {
     $('#mdl').modal('show');
   });
-}
+};
 
 function MostrarMensagem(mensagem, titulo = "Cashback plus") {
   $('#mdlt').html(titulo);
   $('#mdlb').html(mensagem);
   $('#mdl').modal('show');
-}
+};
 
 function LimpaModal() {
   $('#mdlt').html("Cashback plus");
   $('#mdlb').html("");
-}
+};
 
 function Backdrop(ativar) {
   if (ativar) {
@@ -23,7 +23,7 @@ function Backdrop(ativar) {
   else {
     $('#cover-spin').hide();
   }
-}
+};
 
 $('#mdlx').click(LimpaModal);
 $('#mdlf').click(LimpaModal);
@@ -31,14 +31,6 @@ $('#mdlf').click(LimpaModal);
 $('#mdl').on('show.bs.modal', function () {
   Backdrop(false);
 });
-
-/*
-$('#btnOndeComprar').click(
-  function MostraOndeComprar() {
-    Backdrop(true);
-    CarregarTabela('https://escritorio.rcirenda.com.br/EstabelecimentoCredenciado', 'Confira os estabelecimentos conveniados');
-    return false;
-  });*/
 
 $('.branco').on('click', function () {
   if ($(window).width() < 1200) {
@@ -54,7 +46,7 @@ $('#simulacao').on('click', function () {
 
 function validEmail(email){
   return /^[\w+.]+@\w+\.\w{2,}(?:\.\w{2})?$/.test(email)
-}
+};
 
 function EnviarSimulacao() {
   var data = {
@@ -111,5 +103,8 @@ function EnviarSimulacao() {
       console.log(thrownError);
     }
   });
+};
 
-}
+$('#pdf').click(function (){MostrarMensagem('<iframe src="https://drive.google.com/file/d/1i0d_s7FIjyBRHMmB0mQowHn0_dnmOA49/preview" width="100%" height="100%"></iframe>'); return false;});
+$('#pptx').click(function (){MostrarMensagem('<iframe src="https://drive.google.com/file/d/1Td-aKAT4V3l4DbxsP-QQNV29YnGAysiL/preview" width="100%" height="100%"></iframe>'); return false;});
+
