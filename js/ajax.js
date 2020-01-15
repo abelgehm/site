@@ -105,6 +105,11 @@ function EnviarSimulacao() {
   });
 };
 
-$('#pdf').click(function (){MostrarMensagem('<iframe src="https://drive.google.com/file/d/1i0d_s7FIjyBRHMmB0mQowHn0_dnmOA49/preview" width="100%" height="100%"></iframe>'); return false;});
-$('#pptx').click(function (){MostrarMensagem('<iframe src="https://drive.google.com/file/d/1Td-aKAT4V3l4DbxsP-QQNV29YnGAysiL/preview" width="100%" height="100%"></iframe>'); return false;});
-
+$('#pdf').click(function (){
+  MostrarMensagem('<iframe src="https://drive.google.com/file/d/1sRMbsb8ApDuRsoNgKabMb2mO351QrSDz/preview" width="100%" height="100%"></iframe>');
+  return false;
+});
+$('#pptx').click(function (){
+  MostrarMensagem('<iframe src="https://drive.google.com/file/d/1c3ny5MSQ5a_kST2Kw3sViKrTH8Dwo_OL/preview" width="100%" height="100%"></iframe>');
+  return false;
+});
